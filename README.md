@@ -41,3 +41,64 @@ To build a machine learning model that detects emotions from speech and provides
    - Predict and display emotion
    - Show optional emotion trend graph
    - Save prediction history/session data
+  
+  ## 🔧 Installation
+
+### 🔗 Clone the repo
+```bash
+git clone https://github.com/kalyani-ch123/Emotion-Voice-Detection.git
+cd Emotion-Voice-Detection
+
+**💡 Create a virtual environment (optional)**
+
+python3 -m venv venv
+source venv/bin/activate
+
+**📦 Install dependencies**
+
+pip install -r requirements.txt
+
+**🚀 Run the App**
+
+streamlit run app.py
+Then, open your browser to: http://localhost:8501
+
+**🧪 Model Performance**
+Metric	Value
+Accuracy	~85-90%
+Classifier	SVM / RF
+Dataset	RAVDESS
+Sample Size	1440 Audio Files
+📈 You can retrain the model using the training notebook provided.
+
+**📂 Folder Structure**
+
+Emotion-Voice-Detection/
+├── data/                # Audio samples (optional)
+├── models/              # Trained model (pkl)
+├── app.py               # Streamlit UI
+├── feature_extractor.py # Feature functions
+├── train_model.py       # ML training script
+├── requirements.txt
+└── README.md
+
+**✨ Future Enhancements**
+
+    🎙️ Real-time voice recording in the browser
+
+    🤖 Deep learning models (LSTM, CNN, wav2vec2)
+
+    🌐 Deploy to HuggingFace or Streamlit Cloud
+
+    📈 Emotion trends chart across multiple recordings
+
+    🔄 Multilingual emotion detection
+
+**💬 Feedback**
+
+Found a bug or want to suggest a feature? Feel free to open an issue or a pull request!
+
+    🌟 Star the repo if you like it. It motivates me to build more! 😊
+
+
+
